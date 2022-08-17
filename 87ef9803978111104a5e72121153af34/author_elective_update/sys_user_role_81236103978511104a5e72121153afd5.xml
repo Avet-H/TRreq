@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>true</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_750166_tr.admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 23:52:27</sys_created_on>
+        <sys_id>81236103978511104a5e72121153afd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_750166_tr.admin</sys_name>
+        <sys_package display_value="TR" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TR">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_update_name>sys_user_role_81236103978511104a5e72121153afd5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 23:52:27</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TRainReq">87ef9803978111104a5e72121153af34</application>
+        <file_path/>
+        <instance_id>6c850a1fdb90599c8aea21c4059619a8</instance_id>
+        <instance_name>dev129197</instance_name>
+        <name>sys_user_role_81236103978511104a5e72121153afd5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>true</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_750166_tr.admin</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-05 23:52:27</sys_created_on><sys_id>81236103978511104a5e72121153afd5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_750166_tr.admin</sys_name><sys_package display_value="TR" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package><sys_policy/><sys_scope display_value="TR">87ef9803978111104a5e72121153af34</sys_scope><sys_update_name>sys_user_role_81236103978511104a5e72121153afd5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-05 23:52:27</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>45040016</payload_hash>
+        <record_name>x_750166_tr.admin</record_name>
+        <reverted_from/>
+        <source>8bef9803978111104a5e72121153af36</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 23:52:27</sys_created_on>
+        <sys_id>6c432903978511104a5e72121153afd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182706cb06c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 23:52:27</sys_updated_on>
+        <type>Role</type>
+        <update_guid>a4432903e4851110a28c6dc6d67f88d1</update_guid>
+        <update_guid_history>a4432903e4851110a28c6dc6d67f88d1:45040016</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_750166_tr.admin">4a042d83978511104a5e72121153af00</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 23:55:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>10ca605d82a64518819a704619ee2a40</sys_id>
+        <sys_metadata>81236103978511104a5e72121153afd5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_750166_tr.admin</sys_name>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_scope_delete display_value="">bd1716125ab349cfa86cadca53c21739</sys_scope_delete>
+        <sys_update_name>sys_user_role_81236103978511104a5e72121153afd5</sys_update_name>
+        <sys_update_version display_value="sys_user_role_81236103978511104a5e72121153afd5">6c432903978511104a5e72121153afd1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 23:55:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

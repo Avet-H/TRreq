@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_750166_tr_trroles</description>
+        <name>x_750166_tr_trroles</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 04:54:59</sys_created_on>
+        <sys_id>f912fb5f970d51104a5e72121153af1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_750166_tr_trroles</sys_name>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_update_name>sys_security_acl_f912fb5f970d51104a5e72121153af1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 04:54:59</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TRainReq">87ef9803978111104a5e72121153af34</application>
+        <file_path/>
+        <instance_id>6c850a1fdb90599c8aea21c4059619a8</instance_id>
+        <instance_name>dev129197</instance_name>
+        <name>sys_security_acl_f912fb5f970d51104a5e72121153af1f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_750166_tr_trroles</description><name>x_750166_tr_trroles</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-07 04:54:59</sys_created_on><sys_id>f912fb5f970d51104a5e72121153af1f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_750166_tr_trroles</sys_name><sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package><sys_policy/><sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope><sys_update_name>sys_security_acl_f912fb5f970d51104a5e72121153af1f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-07 04:54:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-468333552</payload_hash>
+        <record_name>x_750166_tr_trroles</record_name>
+        <reverted_from/>
+        <source>8bef9803978111104a5e72121153af36</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 04:54:59</sys_created_on>
+        <sys_id>fd12fb5f970d51104a5e72121153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18276a8066a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 04:54:59</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f512fb5fdd0d51107b89cc795f4c4e22</update_guid>
+        <update_guid_history>f512fb5fdd0d51107b89cc795f4c4e22:-468333552</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 04:59:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>d337faa3b95e4e40b9c29827d9862e71</sys_id>
+        <sys_metadata>f912fb5f970d51104a5e72121153af1f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_750166_tr_trroles</sys_name>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_parent display_value="">0e12fb5f970d51104a5e72121153af35</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_scope_delete display_value="">bd1716125ab349cfa86cadca53c21739</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f912fb5f970d51104a5e72121153af1f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f912fb5f970d51104a5e72121153af1f">fd12fb5f970d51104a5e72121153af22</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 04:59:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

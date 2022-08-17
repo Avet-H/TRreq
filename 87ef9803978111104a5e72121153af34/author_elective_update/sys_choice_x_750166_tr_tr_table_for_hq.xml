@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="for_hq" table="x_750166_tr_tr_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>for_hq</element>
+            <name>x_750166_tr_tr_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 21:37:25</sys_created_on>
+            <sys_id>1e5401c3970511104a5e72121153af58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>for_hq</sys_name>
+            <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+            <sys_update_name>sys_choice_x_750166_tr_tr_table_for_hq</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 21:37:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_hq</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Approve</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 21:37:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7244cd83970511104a5e72121153af62</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:31:18</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_hq</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Reject</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 21:37:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab544983970511104a5e72121153af78</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:30:48</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_hq</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>approve</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-07 18:32:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>952de6e797c591104a5e72121153af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:32:14</sys_updated_on>
+            <value>approve</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_hq</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>aprove</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-07 18:31:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afec26e797c591104a5e72121153af25</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:32:14</sys_updated_on>
+            <value>aprove</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_hq</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>reject</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-07 18:30:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14dca2e797c591104a5e72121153af77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:30:48</sys_updated_on>
+            <value>reject</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

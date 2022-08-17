@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>4. Status value_old records</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+
+	// When Supervisor approves/rejects, change status value accordingly 
+		if(g_form.getValue('for_supervisors')== 'approve') {
+		g_form.setValue('status', 2);
+	}
+	
+	if (g_form.getValue('for_supervisors')=='reject'){
+		g_form.setValue('status', 3);
+	}
+	
+	
+	// When HQ approves/rejects, change status value accordingly 
+	if(g_form.getValue('for_hq')== 'approve' && g_form.getValue('for_supervisors')== 'approve') {
+		g_form.setValue('status', 4);
+	}
+	
+	if (g_form.getValue('for_hq')== 'reject' && g_form.getValue('for_supervisors')== 'approve'){
+		g_form.setValue('status', 5);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 18:13:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>808862e397c591104a5e72121153af2b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>4. Status value_old records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_update_name>sys_script_client_808862e397c591104a5e72121153af2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 19:31:44</sys_updated_on>
+        <table>x_750166_tr_tr_table</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

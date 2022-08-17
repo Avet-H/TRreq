@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Make "For HQ" and "For Supervisor" fields read_only for other users </description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>5. Managers' section_read only</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	if (g_user.hasRole('x_750166_tr.user')){
+	g_form.setReadOnly('for_supervisors', true);
+	g_form.setReadOnly('for_hq', true);
+}
+
+if (g_user.hasRole('x_750166_tr.supervisor')){
+	g_form.setReadOnly('for_supervisors', false);
+	g_form.setReadOnly('for_hq', true);
+}
+if (g_user.hasRole('x_750166_tr.hq')){
+	g_form.setReadOnly('for_supervisors', true);
+	g_form.setReadOnly('for_hq', false);
+}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 20:01:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af600b6b970991104a5e72121153afe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5. Managers' section_read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_update_name>sys_script_client_af600b6b970991104a5e72121153afe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 20:01:13</sys_updated_on>
+        <table>x_750166_tr_tr_table</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

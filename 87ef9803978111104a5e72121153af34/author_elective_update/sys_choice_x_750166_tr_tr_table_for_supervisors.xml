@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="for_supervisors" table="x_750166_tr_tr_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>for_supervisors</element>
+            <name>x_750166_tr_tr_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 21:35:20</sys_created_on>
+            <sys_id>7bd34183970511104a5e72121153afed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>for_supervisors</sys_name>
+            <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+            <sys_update_name>sys_choice_x_750166_tr_tr_table_for_supervisors</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 21:35:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_supervisors</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Approve</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 21:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6e3c183970511104a5e72121153af1d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:43:03</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_supervisors</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>approve</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-07 18:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf9fae6b97c591104a5e72121153afe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:43:03</sys_updated_on>
+            <value>approve</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_supervisors</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Reject</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 21:35:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fec38583970511104a5e72121153af4e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:43:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_supervisors</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>reject</label>
+            <language>en</language>
+            <name>x_750166_tr_tr_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-07 18:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f9fae6b97c591104a5e72121153afe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 18:43:03</sys_updated_on>
+            <value>reject</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

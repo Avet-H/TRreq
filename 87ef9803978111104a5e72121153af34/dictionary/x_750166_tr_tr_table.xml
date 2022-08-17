@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TR table" max_length="40" name="x_750166_tr_tr_table" sizeclass="14" text_index="true" type="collection">
+        <element label="Description" max_length="300" name="description" type="string"/>
+        <element choice="1" label="For HQ" max_length="40" name="for_hq" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Approve" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="approve" sequence="0" value="approve"/>
+                <element inactive="true" inactive_on_update="true" label="aprove" sequence="0" value="aprove"/>
+                <element inactive="true" inactive_on_update="true" label="Reject" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="reject" sequence="1" value="reject"/>
+            </choice>
+        </element>
+        <element choice="1" label="For Supervisors" max_length="40" name="for_supervisors" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Approve" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="approve" sequence="0" value="approve"/>
+                <element inactive_on_update="false" label="reject" sequence="1" value="reject"/>
+                <element inactive="true" inactive_on_update="true" label="Reject" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="HQ" max_length="32" name="hq" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Preferred Start date" mandatory="true" max_length="40" name="preferred_start_date" type="glide_date"/>
+        <element label="Requested by" max_length="32" name="requested_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Specify the Other" max_length="60" name="specify_other" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Waiting for Supervisor’s approval" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Approved by Supervisor and waiting for HQ's approval" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Rejected by Supervisor" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Approved by HQ" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Rejected by HQ" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Supervisor" max_length="32" name="supervisor" type="string"/>
+        <element choice="1" label="Training program category" mandatory="true" max_length="40" name="training_program_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HR" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Managerial" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Technical" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Other (specify)" sequence="3" value="111"/>
+            </choice>
+        </element>
+        <element choice="1" label="Training program type" max_length="40" name="training_program_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HR1" sequence="0" value="1_1"/>
+                <element inactive_on_update="false" label="HR2" sequence="1" value="1_2"/>
+                <element inactive_on_update="false" label="Project Management" sequence="2" value="2_1"/>
+                <element inactive_on_update="false" label="Operation management" sequence="3" value="2_2"/>
+                <element inactive_on_update="false" label="Product management" sequence="4" value="2_3"/>
+                <element inactive_on_update="false" label="Programming languages" sequence="5" value="3_1"/>
+                <element inactive_on_update="false" label="Statistical sowtwares" sequence="6" value="3_2"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="_111"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+        <index name="index2">
+            <element name="hq"/>
+        </index>
+        <index name="index3">
+            <element name="supervisor"/>
+        </index>
+    </element>
+</database>

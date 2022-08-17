@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>HQ can modify the hierarchy of supervisors and their users, Supervisors can see the table</description>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_750166_tr.hq,x_750166_tr.supervisor</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 00:16:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>800f0e1c975111104a5e72121153af58</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Roles table</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_update_name>sys_app_application_800f0e1c975111104a5e72121153af58</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 00:47:33</sys_updated_on>
+        <title>Roles table</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TRainReq">87ef9803978111104a5e72121153af34</application>
+        <file_path/>
+        <instance_id>6c850a1fdb90599c8aea21c4059619a8</instance_id>
+        <instance_name>dev129197</instance_name>
+        <name>sys_app_application_800f0e1c975111104a5e72121153af58</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description>HQ can modify the hierarchy of supervisors and their users, Supervisors can see the table</description><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_750166_tr.hq,x_750166_tr.supervisor</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-10 00:16:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>800f0e1c975111104a5e72121153af58</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Roles table</sys_name><sys_overrides/><sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package><sys_policy/><sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope><sys_update_name>sys_app_application_800f0e1c975111104a5e72121153af58</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-10 00:47:33</sys_updated_on><title>Roles table</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-2113133687</payload_hash>
+        <record_name>Roles table</record_name>
+        <reverted_from/>
+        <source>8bef9803978111104a5e72121153af36</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 00:47:33</sys_created_on>
+        <sys_id>7a365214979111104a5e72121153af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182853892340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 00:47:33</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>b2365214ba911110fec9bf46fe9d667a</update_guid>
+        <update_guid_history>b2365214ba911110fec9bf46fe9d667a:-2113133687,3a8556d028911110df58c3e7a3644963:-468133140,9e0096d8be5111106be4394ae4fa7097:-2113133687,5fbf0ed8c45111101e80e84f34fb27f7:58832312,de3fce1cfb511110dcae47f43ce7bb8b:-694719233</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Roles table">d1761ed0979111104a5e72121153af2b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 00:48:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>05a6dfa1a7b34e068034c235def527a4</sys_id>
+        <sys_metadata>800f0e1c975111104a5e72121153af58</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Roles table</sys_name>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_scope_delete display_value="">bd1716125ab349cfa86cadca53c21739</sys_scope_delete>
+        <sys_update_name>sys_app_application_800f0e1c975111104a5e72121153af58</sys_update_name>
+        <sys_update_version display_value="sys_app_application_800f0e1c975111104a5e72121153af58">7a365214979111104a5e72121153af7a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 00:48:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

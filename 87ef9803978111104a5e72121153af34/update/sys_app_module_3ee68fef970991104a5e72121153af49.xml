@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="TRainReq">3e23c943970511104a5e72121153af6f</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_750166_tr_tr_table">statusIN4,5^hqDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item display_value="4,5" endquery="false" field="status" goto="false" newquery="false" operator="IN" or="false" value="4,5"/>
+            <item endquery="false" field="hq" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Approved by me</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_750166_tr_tr_table</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_750166_tr.hq</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 20:24:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ee68fef970991104a5e72121153af49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HQ_Approved or rejected by me</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_update_name>sys_app_module_3ee68fef970991104a5e72121153af49</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 20:24:50</sys_updated_on>
+        <timeline_page/>
+        <title>HQ_Approved or rejected by me</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

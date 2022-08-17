@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>TRroles</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_750166_tr_trroles</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 05:00:59</sys_created_on>
+        <sys_id>8c43775f970d51104a5e72121153af10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TRroles</sys_name>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_update_name>sys_db_object_8c43775f970d51104a5e72121153af10</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 05:00:59</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TRainReq">87ef9803978111104a5e72121153af34</application>
+        <file_path/>
+        <instance_id>6c850a1fdb90599c8aea21c4059619a8</instance_id>
+        <instance_name>dev129197</instance_name>
+        <name>sys_db_object_8c43775f970d51104a5e72121153af10</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>TRroles</label><live_feed_enabled>false</live_feed_enabled><name>x_750166_tr_trroles</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-07 05:00:59</sys_created_on><sys_id>8c43775f970d51104a5e72121153af10</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TRroles</sys_name><sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package><sys_policy/><sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope><sys_update_name>sys_db_object_8c43775f970d51104a5e72121153af10</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-07 05:00:59</sys_updated_on><update_access>false</update_access><user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1639157250</payload_hash>
+        <record_name>TRroles</record_name>
+        <reverted_from/>
+        <source>8bef9803978111104a5e72121153af36</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 05:01:00</sys_created_on>
+        <sys_id>ce73b3df970d51104a5e72121153af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18276ad8a480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 05:01:00</sys_updated_on>
+        <type>Table</type>
+        <update_guid>0a73b3df9b0d5110d7dac1c918177705</update_guid>
+        <update_guid_history>0a73b3df9b0d5110d7dac1c918177705:-1639157250</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 05:06:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0bca2239b752455493f0554be1177e44</sys_id>
+        <sys_metadata>8c43775f970d51104a5e72121153af10</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TRroles</sys_name>
+        <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+        <sys_scope_delete display_value="">bd1716125ab349cfa86cadca53c21739</sys_scope_delete>
+        <sys_update_name>sys_db_object_8c43775f970d51104a5e72121153af10</sys_update_name>
+        <sys_update_version display_value="sys_db_object_8c43775f970d51104a5e72121153af10">ce73b3df970d51104a5e72121153af05</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 05:06:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

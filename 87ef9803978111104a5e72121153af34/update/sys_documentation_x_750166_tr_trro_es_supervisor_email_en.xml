@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="supervisor_email" label="Supervisor_email" language="en" table="x_750166_tr_trro_es">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>supervisor_email</element>
+            <help/>
+            <hint/>
+            <label>Supervisor_email</label>
+            <language>en</language>
+            <name>x_750166_tr_trro_es</name>
+            <plural>Supervisor_emails</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-07 05:08:47</sys_created_on>
+            <sys_id>8c45bf13974d51104a5e72121153afc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Supervisor_email</sys_name>
+            <sys_package display_value="TRainReq" source="x_750166_tr">87ef9803978111104a5e72121153af34</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TRainReq">87ef9803978111104a5e72121153af34</sys_scope>
+            <sys_update_name>sys_documentation_x_750166_tr_trro_es_supervisor_email_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-07 05:08:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

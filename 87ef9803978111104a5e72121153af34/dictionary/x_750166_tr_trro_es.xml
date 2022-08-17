@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TRroles" max_length="40" name="x_750166_tr_trro_es" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="HQ" max_length="40" name="hq" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="HQ_email" max_length="40" name="hq_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Supervisor" max_length="40" name="supervisor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Supervisor_email" max_length="40" name="supervisor_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User" max_length="40" name="user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="User email" max_length="40" name="user_email" type="string"/>
+    </element>
+</database>
